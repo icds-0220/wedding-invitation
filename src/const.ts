@@ -14,7 +14,7 @@ export { dayjs }
  * 예식 일시 설정
  * Asia/Seoul 타임존 기준으로 설정합니다.
  */
-export const WEDDING_DATE = dayjs.tz("2024-08-24 13:00", "Asia/Seoul")
+export const WEDDING_DATE = dayjs.tz("2027-01-31 13:00", "Asia/Seoul")
 
 /**
  * 예식 일시 포맷
@@ -27,17 +27,17 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
  * 예식 당월 휴무일 (달력 표시용)
  * 예: 8월 15일 광복절
  */
-export const HOLIDAYS = [15]
+export const HOLIDAYS = [1]
 
 /**
  * 예식 장소 명칭
  */
-export const LOCATION = "서울대학교 연구공원 웨딩홀"
+export const LOCATION = "루이비스컨벤션 대전점"
 
 /**
  * 예식 장소 상세 주소
  */
-export const LOCATION_ADDRESS = "서울시 관악구 관악로 1, 연구공원 본관 1층"
+export const LOCATION_ADDRESS = "대전 유성구 테크노중앙로 161 스카이파크호텔 1층 루이비스컨벤션"
 
 /**
  * 카카오톡 공유 시 사용할 위치 정보 주소
@@ -53,26 +53,25 @@ export const SHARE_ADDRESS_TITLE = LOCATION
 /**
  * 지도 서비스(네이버, 카카오)에 사용할 좌표 [경도, 위도]
  */
-export const WEDDING_HALL_POSITION = [126.9594982, 37.4657134]
+export const WEDDING_HALL_POSITION = [36.4246669, 127.3982673]
 
 /**
  * 네이버 지도 장소 ID (NMAP_PLACE_ID)
  * 네이버 지도에서 장소 검색 후 URL의 숫자 부분을 입력합니다.
  */
-export const NMAP_PLACE_ID = 13321741
-
+export const NMAP_PLACE_ID = 1354062290
 /**
  * 카카오 지도 장소 ID (KMAP_PLACE_ID)
  * 카카오 지도에서 장소 상세보기 클릭 후 URL의 숫자 부분을 입력합니다.
  */
-export const KMAP_PLACE_ID = 8634826
+export const KMAP_PLACE_ID = 161425946
 
 // 신부 정보 설정
-export const BRIDE_FULLNAME = "정지원"
-export const BRIDE_FIRSTNAME = "지원"
+export const BRIDE_FULLNAME = "이다슬"
+export const BRIDE_FIRSTNAME = "다슬"
 export const BRIDE_TITLE = "장녀"
-export const BRIDE_FATHER = "정상원"
-export const BRIDE_MOTHER = "박윤정"
+export const BRIDE_FATHER = "이재봉"
+export const BRIDE_MOTHER = "최미자"
 
 /**
  * 신부측 연락처 및 계좌 정보
@@ -81,7 +80,7 @@ export const BRIDE_INFO = [
   {
     relation: "신부",
     name: BRIDE_FULLNAME,
-    phone: "010-0000-0000",
+    phone: "010-4396-0220",
     account: "우리은행 0000000000000",
   },
   {
@@ -99,11 +98,11 @@ export const BRIDE_INFO = [
 ]
 
 // 신랑 정보 설정
-export const GROOM_FULLNAME = "남주호"
-export const GROOM_FIRSTNAME = "주호"
+export const GROOM_FULLNAME = "정인철"
+export const GROOM_FIRSTNAME = "인철"
 export const GROOM_TITLE = "차남"
-export const GROOM_FATHER = "남현태"
-export const GROOM_MOTHER = "김현영"
+export const GROOM_FATHER = "정창붕"
+export const GROOM_MOTHER = "남영숙"
 
 /**
  * 신랑측 연락처 및 계좌 정보
@@ -112,19 +111,19 @@ export const GROOM_INFO = [
   {
     relation: "신랑",
     name: GROOM_FULLNAME,
-    phone: "010-0000-0000",
-    account: "하나은행 00000000000000",
+    phone: "010-7108-5892",
+    account: "카카오뱅크 3333382301295",
   },
   {
     relation: "신랑 아버지",
     name: GROOM_FATHER,
-    phone: "010-0000-0000",
-    account: "신한은행 000000000000",
+    phone: "010-7108-5892",
+    account: "카카오뱅크 3333382301295",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
-    phone: "010-0000-0000",
+    phone: "010-5021-5892",
     account: "국민은행 000000000000",
   },
 ]
